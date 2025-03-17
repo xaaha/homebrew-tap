@@ -1,2 +1,2 @@
 # homebrew-tap
-Homebrew Formula to 
+Homebrew Formula for [hulak](https://github.com/xaaha/hulak)
