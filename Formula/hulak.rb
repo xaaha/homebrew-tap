@@ -1,10 +1,10 @@
 class Hulak < Formula
   desc 'File Based API client for terminal nerds'
   homepage 'https://github.com/xaaha/hulak'
-  url 'https://github.com/xaaha/hulak/archive/refs/tags/v0.1.0-beta.5.1.tar.gz'
-  sha256 '1bde1767121ab4e1357ff8a335e5545c5d74002744e23c9a82acfd0fd706966e'
+  url 'https://github.com/xaaha/hulak/archive/refs/tags/v0.1.0-beta.5.2.tar.gz'
+  sha256 'd4be75c01a04db913b3b639dbc8bec0d92f6957bf995b71373d5b1ffc71a1084'
   # Beta release
-  version '0.1.0-beta.5.1'
+  version '0.1.0-beta.5.2'
   license 'MIT'
   head 'https://github.com/xaaha/hulak.git', branch: 'main'
 
