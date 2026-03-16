@@ -3,7 +3,7 @@ cask "hulak" do
   name "hulak"
   desc "File based API client for terminal nerds"
   homepage "https://github.com/xaaha/hulak"
-  version "0.2.1"
+  version "0.2.11"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,22 +15,22 @@ cask "hulak" do
   on_macos do
     on_intel do
       url "https://github.com/xaaha/hulak/releases/download/v#{version}/hulak_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "6eddabd9392eaa7c0cbc3373698cbb7189f9825894aabc908cdbab51436aaa86"
+      sha256 "bd1a6fb969c3c7ebbf61a3ef3a42d82a662b389dac0513eb15ff969e55fb2814"
     end
     on_arm do
       url "https://github.com/xaaha/hulak/releases/download/v#{version}/hulak_#{version}_Darwin_arm64.tar.gz"
-      sha256 "c247f82bb22986d097d93ceeaad7c8b6f71007ee7574cad17741439acf826bfd"
+      sha256 "cb0fc2ee223b3205a5e01bcb95e3ae4cb8acd0671d5093c04b5a3e9453dab7e4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xaaha/hulak/releases/download/v#{version}/hulak_#{version}_Linux_x86_64.tar.gz"
-      sha256 "9d188142b15a2d01afe6e7098f118b70bca4fbef33fc369db875f5215656aba7"
+      sha256 "aa13db3d1e7fa89eb75fad03ca44923b7f01138c39b3adc941c4a87131c2f0ce"
     end
     on_arm do
       url "https://github.com/xaaha/hulak/releases/download/v#{version}/hulak_#{version}_Linux_arm64.tar.gz"
-      sha256 "2e369a042b4404bed5e560518bbed34a89882d2dac812293ec11e8dcc0b2c671"
+      sha256 "d7bf098c6976f1fbed60757b972b3ea31fde192af524e3db5ed5717635a5dd76"
     end
   end
 
