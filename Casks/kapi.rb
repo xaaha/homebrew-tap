@@ -11,25 +11,25 @@ cask "kapi" do
     end
   end
 
-  version "0.1.0"
+  version "0.1.01"
 
   on_macos do
     on_arm do
-      sha256 "fb73319b6a22bda860f71017f7bb6ae401c911d6ab014dda69d6544bac7fa622"
+      sha256 "17f4dfa7f11835a140b436caa866da20a972e025eda2de54829529be55b022cd"
       url "https://github.com/xaaha/kapi/releases/download/v#{version}/kapi_#{version}_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "20f421bfe50f9ecf0d0121a4282dd36aaef2c4e3166df04198e40469336022e2"
+      sha256 "b4ad110b960662a2e139ee3ada6cd79a72b2e5ba7d6f17d2a93e12a96643aefc"
       url "https://github.com/xaaha/kapi/releases/download/v#{version}/kapi_#{version}_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "25c9a88a2d26eec39ee8f0a0a1348027b02acef697035204c9c1230b578a8e95"
+      sha256 "ec3fcc2ee80c87b8b261a2bdc03f5468006479ff02fe18d1f02fa414589711cf"
       url "https://github.com/xaaha/kapi/releases/download/v#{version}/kapi_#{version}_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "75a69ce54352be5d2d57321b225e9518e43a9e34c05339a890c4abdbab537535"
+      sha256 "8cb31f1d7cf2c1304441361e8dab8fd8f2cc50f964ef7bbd97c0908f0f06f905"
       url "https://github.com/xaaha/kapi/releases/download/v#{version}/kapi_#{version}_Linux_x86_64.tar.gz"
     end
   end
